@@ -1,11 +1,11 @@
 
-*********************DIRECTORIES (for minbert-default-final-project)*******************
+*********************DIRECTORIES (for BERT-default-final-project)*******************
 
 	* predictions: The directory that include prediction results.
 	
 	* smart_pytorh: The directory that is borrowed form Github.
 
-*************************FILES (for minbert-default-final-project)*********************	
+*************************FILES (for BERT-default-final-project)*********************	
 	*The script that is changed in the scope of the project:
 	
 		* bert.py: The script for bert model. This script were impelented for this project.
