@@ -15,7 +15,7 @@
 
 #### Scripts Borrowed from GitHub / GitHub'dan Ödünç Alınan Betikler:
 - **triplet_loss.py**: Script for triplet loss, borrowed from GitHub / GitHub'dan ödünç alınan üçlü kayıp için betik.
-- **pcgrad.py**: Implementation of PCGrad, sourced from GitHub ([GitHub Repository](https://github.com/WeiChengTseng/Pytorch-PCGrad/blob/master/pcgrad.py)) / PCGrad'ın uygulanması, GitHub'dan alınmıştır.
+- **pcgrad.py**: Implementation of PCGrad, sourced from GitHub ([GitHub Repository](https://github.com/WeiChengTseng/Pytorch-PCGrad/blob/master/pcgrad.py)) / PCGrad'ın uygulanması, GitHub ([GitHub Deposu](https://github.com/WeiChengTseng/Pytorch-PCGrad/blob/master/pcgrad.py))'dan alınmıştır.
 
 #### Additional Files / Ek Dosyalar:
 - **base_bert.py**: Script for the base BERT model / Temel BERT modeli için betik.
