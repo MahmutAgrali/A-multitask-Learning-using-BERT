@@ -1,45 +1,30 @@
+## Project Structure Overview / Proje Yapısı Genel Bakışı
 
-*********************DIRECTORIES (for BERT-default-final-project)*******************
+### Directories / Dizinler
+- **predictions**: Contains prediction results / Tahmin sonuçlarını içerir.
+- **smart_pytorch**: Directory borrowed from GitHub / GitHub'dan ödünç alınan dizin.
 
-	* predictions: The directory that include prediction results.
-	
-	* smart_pytorh: The directory that is borrowed form Github.
+### Files / Dosyalar
+#### Scripts Modified for Project Scope / Projeye Kapsamına Göre Değiştirilen Betikler:
+- **bert.py**: Implements the BERT model for this project / Bu projede BERT modelini uygular.
+- **multitask_classifier.py**: Script for multitask learning, focused on sentiment classification / Çoklu görev öğrenimi için betik, duygu sınıflandırmasına odaklanıyor.
+- **multitask_classifier_with_all_tasks.py**: Enhanced multitask learning script, yielding optimal results / En iyi sonuçları elde etmek için geliştirilmiş çoklu görev öğrenimi betiği.
+- **classifier.py**: Script for training classification tasks / Sınıflandırma görevlerini eğitmek için betik.
+- **optimizer.py**: Optimizer script / Optimizasyon betiği.
+- **evaluation.py**: Script for evaluation / Değerlendirme için betik.
 
-*************************FILES (for BERT-default-final-project)*********************	
-	*The script that is changed in the scope of the project:
-	
-		* bert.py: The script for bert model. This script were impelented for this project.
-		
-		* multitask_classifier.py: The script for multitask learning, but it includes only sentiment classification. This is my previous code stated in the project report.
-		
-		* multitask_classifier_with_all_tasks.py: The script for multitask learning. The most results were obtained by using this script.
-		
-		* classifier.py: The script for classification task training.
-		
-		* optimizer.py: The optimizer script.
-		
-		* evaluation.py: The script for evaluation. This script was added some code lines
-	
-	*The script that is borrowed from Github:
-	
-		* triplet_loss.py: The script for triplet loss. That was borrowed from Github.
-		
-		* pcgrad.py: This scrpit includes PCGrad implementation. This script was borrowed from Github (Please see: https://github.com/WeiChengTseng/Pytorch-PCGrad/blob/master/pcgrad.py).
-	
-		
-	* base_bert.py: The script for base bert model.	
-	
-	* config.py: The script that include configurations of the training and evaluation.
-	
-	* datatests.py: The script that is required to get dataset.
-	
-	* optimizer_test.py: The test script for optimizer.
-	
-	* perepare_submit.py: The script is used for submission.
-	
-	* sanity_check.py: The test script for classifier.py script
-	
-	* tokenizer.py: The tokenizer script for the datasets.
+#### Scripts Borrowed from GitHub / GitHub'dan Ödünç Alınan Betikler:
+- **triplet_loss.py**: Script for triplet loss, borrowed from GitHub / GitHub'dan ödünç alınan üçlü kayıp için betik.
+- **pcgrad.py**: Implementation of PCGrad, sourced from GitHub ([GitHub Repository](https://github.com/WeiChengTseng/Pytorch-PCGrad/blob/master/pcgrad.py)) / PCGrad'ın uygulanması, GitHub'dan alınmıştır.
 
-	* utils.py: The script that includes helpful functions.
-	
+#### Additional Files / Ek Dosyalar:
+- **base_bert.py**: Script for the base BERT model / Temel BERT modeli için betik.
+- **config.py**: Configuration script for training and evaluation / Eğitim ve değerlendirme yapılandırması için betik.
+- **datatests.py**: Script necessary for dataset handling / Veri kümesi işleme için gerekli betik.
+- **optimizer_test.py**: Test script for optimizer functionality / Optimizasyon işlevselliği için test betiği.
+- **prepare_submit.py**: Script used for submission purposes / Gönderim amaçlı kullanılan betik.
+- **sanity_check.py**: Test script for validating classifier.py functionality / classifier.py işlevselliğini doğrulamak için test betiği.
+- **tokenizer.py**: Tokenizer script for dataset processing / Veri kümesi işleme için belirteçleyici betik.
+- **utils.py**: Script containing helpful utility functions / Faydalı yardımcı işlevleri içeren betik.
+
+This directory structure and file organization facilitate clarity and modularity within the BERT-default-final-project. Each script and directory serves a specific purpose, contributing to the project's overall functionality and effectiveness. / Bu dizin yapısı ve dosya düzeni, BERT-default-final-project içinde netlik ve modülerlik sağlar. Her betik ve dizin belirli bir amaca hizmet eder, projenin genel işlevselliğine ve etkinliğine katkıda bulunur.
